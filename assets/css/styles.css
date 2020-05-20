@@ -1,0 +1,43 @@
+body{
+    font-family: 'Exo', sans-serif;
+    background-color: #000000;
+    overflow-x: hidden;     
+    background-image: url("../images/bg/circle-blues.png");
+    background-position: center, no-repeat, fixed;
+}
+
+.bg-navy{
+    background-color: navy;
+}
+
+.bg-lightblue {
+    background-color: lightblue;
+}
+
+.text-navy {
+    color: navy
+}
+
+.text-shadow{
+    text-shadow: 2px 2px 5px midnightblue;
+}
+
+.btn-border{
+    border: 2px solid navy;
+}
+
+.btn-custom, a{
+    color: navy;
+    background-color: lightblue;
+}
+
+.btn-custom:hover{
+    color: lightblue;
+    background-color: navy;
+}
+
+.pic{
+    height: 20%;
+    width: 20%;
+    box-shadow: 0 5px 9px 0 rgba(14, 2, 83, 0.2), 0 8px 20px 0 rgba(14, 2, 83, 0.19);
+}
